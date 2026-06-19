@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eliminazione Account — PrediScore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green-dark: #2D7A3E;
+      --green-light: #3D8A4E;
+      --green-glow: #4CAF63;
+      --white: #FFFFFF;
+      --text-grey: #9CA3AF;
+      --bg: #0F1F14;
+      --surface: #162B1C;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--white);
+      line-height: 1.7;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 40px;
+      background: rgba(15,31,20,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(61,138,78,0.15);
+    }
+    .nav-brand {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--white);
+      text-decoration: none;
+    }
+    nav a.back {
+      font-size: 0.85rem;
+      color: var(--text-grey);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    nav a.back:hover { color: var(--white); }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+    .page-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+    .page-date {
+      font-size: 0.85rem;
+      color: var(--text-grey);
+      margin-bottom: 48px;
+    }
+    h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--green-glow);
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+    p { font-size: 0.92rem; color: #D1D5DB; margin-bottom: 14px; }
+    ul { padding-left: 20px; margin-bottom: 14px; }
+    ul li { font-size: 0.92rem; color: #D1D5DB; margin-bottom: 6px; }
+    ol { padding-left: 20px; margin-bottom: 14px; }
+    ol li { font-size: 0.92rem; color: #D1D5DB; margin-bottom: 10px; }
+    a { color: var(--green-glow); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { color: var(--white); }
+    .email-box {
+      display: inline-block;
+      margin: 4px 0 8px;
+      padding: 12px 20px;
+      background: var(--surface);
+      border: 1px solid rgba(61,138,78,0.3);
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--green-glow);
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid rgba(61,138,78,0.15);
+      margin: 40px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.82rem;
+      color: var(--text-grey);
+      border-top: 1px solid rgba(61,138,78,0.1);
+    }
+    @media (max-width: 600px) {
+      nav { padding: 14px 20px; }
+      .page-title { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="nav-brand" href="index.html">PrediScore</a>
+    <a class="back" href="index.html">← Torna alla home</a>
+  </nav>
+
+  <div class="container">
+    <h1 class="page-title">Eliminazione dell'Account</h1>
+    <p class="page-date">Ultimo aggiornamento: giugno 2026</p>
+
+    <p>Questa pagina spiega come richiedere l'eliminazione del tuo account <strong>PrediScore</strong> e di tutti i dati personali associati.</p>
+
+    <h2>Come richiedere l'eliminazione</h2>
+    <p>Per richiedere l'eliminazione del tuo account, invia un'email al nostro indirizzo di supporto:</p>
+    <span class="email-box">support@prediscore.app</span>
+    <p>seguendo questi passaggi:</p>
+    <ol>
+      <li>Scrivi dall'indirizzo email associato al tuo account PrediScore (oppure indica nel messaggio l'email con cui ti sei registrato).</li>
+      <li>Inserisci come oggetto dell'email: <strong>Elimina account</strong>.</li>
+      <li>Indica nel corpo del messaggio il tuo <strong>nome utente</strong>, così da poter identificare correttamente l'account da eliminare.</li>
+    </ol>
+    <p>Riceveremo la tua richiesta e provvederemo all'eliminazione dell'account e dei dati associati.</p>
+
+    <h2>Quali dati vengono eliminati</h2>
+    <p>A seguito della richiesta verranno eliminati in modo definitivo i seguenti dati:</p>
+    <ul>
+      <li>Indirizzo email e dati di autenticazione</li>
+      <li>Nome utente</li>
+      <li>Prediction inserite (pronostici sulle partite)</li>
+      <li>Risposte ai Daily Quiz e relative statistiche</li>
+      <li>Streak, snowflake e token accumulati</li>
+      <li>Partecipazioni alle leghe e relative classifiche</li>
+    </ul>
+
+    <h2>Tempi di eliminazione</h2>
+    <p>L'account e i dati associati verranno eliminati <strong>entro 30 giorni</strong> dalla ricezione della richiesta. Eventuali dati che siamo tenuti a conservare per obblighi di legge verranno mantenuti esclusivamente per il periodo previsto dalla normativa applicabile, e successivamente eliminati.</p>
+
+    <hr class="divider" />
+
+    <p>Per qualsiasi domanda relativa all'eliminazione dei dati o alla privacy, puoi contattarci all'indirizzo <a href="mailto:support@prediscore.app">support@prediscore.app</a> oppure consultare la nostra <a href="privacy.html">Informativa sulla Privacy</a>.</p>
+  </div>
+
+  <footer>
+    © 2025 PrediScore · <a href="privacy.html">Privacy Policy</a> · <a href="delete-account.html">Eliminazione Account</a>
+  </footer>
+</body>
+</html>
